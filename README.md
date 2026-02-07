@@ -23,7 +23,7 @@
 ![Confusion Matrix](confusionmatrix.png)
 ![Angry vs Sad EDA](edacomparison.png)
 
-## 🚀 Quick Inference [file:93]
+## Quick Inference [file:93]
 ```python
 model = tf.keras.models.load_model('best_ser.keras')
 pred = model.predict(mel_spec)
